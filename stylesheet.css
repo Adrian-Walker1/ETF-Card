@@ -1,0 +1,100 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+}
+
+.card-wrapper {
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
+  width: 325px;
+  height: 590px;
+  padding: 20px;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+
+#main-img {
+  width: 325px;
+  height: 325px;
+  border-radius: 7px;
+}
+
+h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.card {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+
+.eth-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eth {
+  display: flex;
+  color: hsl(178, 100%, 50%);
+}
+
+#eth-logo {
+  height: 18px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+#clock {
+  height: 18px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: hsl(215, 32%, 27%);
+}
+
+#profile-pic {
+  height: 35px;
+  margin-top: 12px;
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.days-left,
+.creator {
+  display: flex;
+}
+
+.creator p {
+  font-weight: 300;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media  screen and (max-width: 375px) {
+
+    .card-wrapper {
+      
+    }
+}
